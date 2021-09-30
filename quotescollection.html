@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quotes my Friend</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Friends On Fire</h1>
+  <p>A Real friends don’t get offended when you insult them. They smile and call you something even more offensive</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Sweet</a>
+  <a href="#">Lovely</a>
+  <a href="#">Inspiring</a>
+  <a href="#" class="right">Famous</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About</h2>
+    <h5>Suman Shah</h5>
+    <div class="fakeimg" style="height:200px;">The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela</div>
+    <p></p>
+    <h3>From Developer</h3>
+    <p>Please submit one famoues Quotes after forking and commit and request for pull request with proper format and you can also suggest over web page outerlook.</p>
+    <div class="fakeimg" style="height:60px;">John Lennon</div><br>
+    <div class="fakeimg" style="height:60px;">Oprah Winfrey</div><br>
+    <div class="fakeimg" style="height:60px;">James Cameron</div>
+  </div>
+  <div class="main">
+    <h2>Quotes we Love</h2>
+    <h5>A good quote can be the heart of a compelling article. Good quotes help to tell a story and enhance the credibility of a press release, news story or speech. Words that are crafted well can leave a lasting impact on the world</h5>
+    <div class="fakeimg" style="height:200px;"><img src="capture.png" alt="My friends on Fire" height="200px">
+</div>
+    <p>********************************************************************************************************************************</p>
+    <p>Even the world's most successful individuals have experienced their fair share of setbacks and hardships. There's much to learn from their challenges as well as their success. Luckily, they've condensed their wisdom into meaningful quotes that you can store for later use..</p>
+    <br>
+    <h2>1.Quotes by Mother Teresa</h2>
+       <div class="fakeimg" style="height:100px;">Spread love everywhere you go. Let no one ever come to you without leaving happier</div>
+    
+<br>
+    <h2>2.Quotes by Eleanor Roosevelt</h2>
+       <div class="fakeimg" style="height:100px;">If life were predictable it would cease to be life, and be without flavor.</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Hacktoberfest 2021 Quotes Collection</h2>
+</div>
+
+</body>
+</html>
